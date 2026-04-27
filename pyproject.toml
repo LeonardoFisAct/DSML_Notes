@@ -1,0 +1,23 @@
+[project]
+name = "dsml-notes"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Leonardo Orozco",email = "129697979+LeonardoFisAct@users.noreply.github.com"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter-book (>=2.1.4,<3.0.0)",
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "pandas (>=3.0.2,<4.0.0)",
+    "polars (>=1.40.1,<2.0.0)",
+    "altair (>=6.1.0,<7.0.0)",
+    "plotly (>=6.7.0,<7.0.0)",
+    "ghp-import (>=2.1.0,<3.0.0)",
+    "vega-datasets (>=0.9.0,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
